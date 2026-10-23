@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.cubecraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": { "defaultRequire": 0 },
+  "client": [
+    "AbstractClientPlayerMixin",
+    "FogRendererMixin",
+    "SkyRendererMixin",
+    "ClientLevelMixin",
+    "LevelRendererMixin",
+    "CameraMixin"
+  ]
+}

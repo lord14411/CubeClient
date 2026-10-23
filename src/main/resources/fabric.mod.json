@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cubecraft",
+  "version": "${version}",
+  "name": "CubeCraft Studio",
+  "description": "Client-side studio: skins, 3D models, sky and fog colours, emotes, zoom and fullbright.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["cubecraft.mixins.json"],
+  "entrypoints": { "client": ["com.cubecraft.CubecraftClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
